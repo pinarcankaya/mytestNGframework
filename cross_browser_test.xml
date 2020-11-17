@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Fhc Trip" verbose="2">
+    <test name="Chrome ile test">
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="com.techproed.crossbrowsertests">
+
+            </package>
+        </packages>
+    </test>
+    <test name="Firefox ile test">
+        <parameter name="browser" value="firefox"></parameter>
+        <packages>
+            <package name="com.techproed.crossbrowsertests">
+
+            </package>
+        </packages>
+    </test>
+    <!--cross browserin diger adi multi browser bu classin driverdan farki parameter-->
+</suite>
